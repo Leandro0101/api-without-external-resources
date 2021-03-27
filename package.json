@@ -1,0 +1,25 @@
+{
+  "name": "api-without-external-resources",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "sh script.sh",
+    "start": "node src/index.js",
+    "dev": "npx nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leandro0101/api-without-external-resources.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leandro0101/api-without-external-resources/issues"
+  },
+  "homepage": "https://github.com/Leandro0101/api-without-external-resources#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
